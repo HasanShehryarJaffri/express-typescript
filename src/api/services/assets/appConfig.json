@@ -1,0 +1,4 @@
+{
+    "allowMobilePayments": true,
+    "defaultPaymentPerRegion": true
+}

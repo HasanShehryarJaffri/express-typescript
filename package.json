@@ -1,0 +1,28 @@
+{
+  "name": "typescipt-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && cp ./.env.example .env",
+    "dev": "ts-node-dev --respawn ./src/server.ts",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "http-status-codes": "^2.2.0",
+    "node-fetch": "^3.3.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/jest": "^29.2.4",
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.0.3"
+  }
+}
